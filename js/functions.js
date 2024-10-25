@@ -10,7 +10,7 @@ function outputCartRow(item) {
 
     document.write(`
         <tr>
-            <td><img src="${product.filename}" alt="${product.title}" class="painting"></td>
+            <td><img src="../images/${product.filename}" alt="${product.title}" class="painting"></td>
             <td>${product.title}</td>
             <td>${quantity}</td>
             <td>$${product.price.toFixed(2)}</td>
